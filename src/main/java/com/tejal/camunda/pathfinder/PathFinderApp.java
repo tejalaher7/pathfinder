@@ -61,6 +61,7 @@ public class PathFinderApp
                 throw new RuntimeException("HttpResponseCode: " + responsecode);
             } 
             
+            
             else {
 
                 Scanner scanner = new Scanner(url.openStream());
